@@ -1,10 +1,8 @@
 use std::io;
 
-use rules::create_guideline;
 use rules::create_non_admin_rule;
 use rules::create_rule;
 use rules::Rule;
-use std::ptr::eq;
 
 mod rules;
 
