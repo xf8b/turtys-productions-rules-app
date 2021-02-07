@@ -4,6 +4,8 @@ use rules::create_non_admin_rule;
 use rules::create_rule;
 use rules::Rule;
 
+use crate::rules::create_guideline;
+
 mod rules;
 
 fn main() {
@@ -72,6 +74,78 @@ fn main() {
         create_rule(
             16,
             "No role-playing and no politics.",
+        ),
+        create_guideline(
+            1,
+            "Keep messages in their designated channels.",
+        ),
+        create_guideline(
+            2,
+            "Google first before asking a question. It's likely you will find an answer there.",
+        ),
+        create_guideline(
+            3,
+            "No talk about drugs, alcohol and things alike are permitted here. This does not apply if you are talking about them being in games.",
+        ),
+        create_guideline(
+            4,
+            "Do not use excessive amounts of emojis in 1 message or between messages.",
+        ),
+        create_guideline(
+            5,
+            "No abusing the ability to change your nickname.",
+        ),
+        create_guideline(
+            6,
+            "No excessive or unnecessary spoiler usage, as this can be quite annoying.",
+        ),
+        create_guideline(
+            7,
+            "Do not cross-post. Cross-posting is posting messages in multiple channels or directing people to help you in other channels.",
+        ),
+        create_guideline(
+            8,
+            "Do not try to extend your problem after asking it with messages such as '??', 'anyone there...?', 'someone answer'.",
+        ),
+        create_guideline(
+            9,
+            "Any version below 1.15.2 is not supported here due to the LTS system.",
+        ),
+        create_guideline(
+            10,
+            "Do not advertise in DMs.",
+        ),
+        create_guideline(
+            11,
+            "Do not send Discord server invites outside of #🎭collab-advertise.",
+        ),
+        create_guideline(
+            12,
+            "Any IDE argument or intentional start of an argument will result in a warn for all participating users.",
+        ),
+        create_guideline(
+            13,
+            "No bot commands outside of #🤖bot-commands, with the exception of the command being related to the current topic in some way.",
+        ),
+        create_guideline(
+            14,
+            "Do not impersonate admins or other members, this will result in a kick followed by a warning.",
+        ),
+        create_guideline(
+            15,
+            "Misusing #📕suggestions will result in both a warn and a 2 hour mute.",
+        ),
+        create_guideline(
+            16,
+            "Regarding Rule 15: We consider a conversation ended if there has been no activity in 3 hours, or if they explicitly say 'Thanks for the help!', etc. This only applies for help channels!",
+        ),
+        create_guideline(
+            17,
+            "In contrary to rule 6, telling users to learn Java when it is completely unrelated to the current issue, or just saying it for the sake of being an asshole, will grant you with a warn!"
+        ),
+        create_guideline(
+            18,
+            "MCreator will not be supported in this server. If you continue to ask for help after being told not to use MCreator, you will be kicked."
         )
     ];
 
