@@ -71,6 +71,10 @@ cmake-build-*/
 # File-based project format
 *.iws
 
+# Auto-import
+*.iml
+*.ipr
+
 # IntelliJ
 out/
 
