@@ -1,15 +1,21 @@
-use std::{env, io};
+use std::{env, io, process};
 
-use crate::actions::{get_action, Action};
-use crate::rules::Rule;
+use crate::actions::{Action, get_action};
 use crate::rules::{read_rules, rule_to_string};
+use crate::rules::Rule;
 
 mod actions;
 mod rules;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    let file = &args[1];
+
+    let file = args.get(1).unwrap_or_else(|| {
+        eprintln!("error: you need to pass in the file to read rules from");
+        eprintln!("error: please see the GitHub for an example of a file");
+        eprintln!("error: https://github.com/xf8b/turtys-productions-rules-app/blob/main/rules.txt");
+        process::exit(1);
+    });
     let rules = read_rules(file);
 
     println!("What would you like to do?");
@@ -47,9 +53,14 @@ fn main() {
                     println!();
                 }
             } else {
-                panic!("error: could not find rule(s) matching {}", search_term)
+                eprintln!("error: could not find any rule definitions containing {}", search_term);
+                process::exit(3);
             }
         }
-        _ => panic!("error: invalid action"),
+        Action::Invalid() => {
+            eprintln!("error: invalid action");
+            eprintln!("error: the available actions are: 'l'/'ls'/'list' and 's'/'search'");
+            process::exit(2);
+        }
     }
 }
