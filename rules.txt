@@ -1,0 +1,44 @@
+# These are the rules for Turty's Productions.
+# You can change this file to use different rules.
+# Format: <number> : <definition> : [applies to admins] : [guideline]
+# The spaces are important!
+# By default, applies to admins is true, and guideline is false.
+# Whitespace and lines starting with # are ignored.
+
+# Rules
+1 : Do not promote any illegal acts, breaking of EULAs, breaking of other rules or breaking ToS.
+2 : Do not steal other people's work. If you do plan on utilising others things, please get confirmation from them first that it is okay.
+3 : Do not spam in any channel.
+4 : Please keep everything PG except for off-topic. No porn is allowed.
+5 : No heated discussions will be tolerated. If you witness one, please contact an Administrator.
+6 : Learn Java before you ask why your code doesn't work. By not learning Java, you make it harder for both yourself and for us. Explaining how to fix something is significantly more difficult if someone hasn't learned java, so please, just take a week or so out of your time to do that first.
+7 : Do not be rude to other users, don't be an asshole and just be nice.
+8 : Do not ping whole roles or excessively ping users. Just because you might be fine with it, doesn't mean everyone is, so just keep the pings to a minimum.
+9 : English only please. This is because it's very tricky to moderate languages that all our admins can't speak in.
+10 : You are only permitted 1 advertisement and 1 collaboration request for a thing, and those should be in collab-advertise. This rule does not apply for YouTubers and streamers.
+11 : Do not be rude or backchat to staff, this will result in you either being muted or kicked. If you have a concern, please DM an admin.
+12 : No ban evading, alt accounts will be banned. This does not apply for admins. : false
+13 : Do not misuse the bots. This includes using their commands in the wrong channel. This rule does not apply for admins related to moderation. : false
+14 : Do not post files in any channel. Always host it online. Direct links to executables are not allowed.
+15 : Do not purposely boot into a running conversation asking for help.
+16 : No role-playing and no politics.
+
+# Guidelines
+1 : Keep messages in their designated channels. : true : true
+2 : Google first before asking a question. It's likely you will find an answer there. : true : true
+3 : No talk about drugs, alcohol and things alike are permitted here. This does not apply if you are talking about them being in games. : true : true
+4 : Do not use excessive amounts of emojis in 1 message or between messages. : true : true
+5 : No abusing the ability to change your nickname. : true : true
+6 : No excessive or unnecessary spoiler usage, as this can be quite annoying. : true : true
+7 : Do not cross-post. Cross-posting is posting messages in multiple channels or directing people to help you in other channels. : true : true
+8 : Do not try to extend your problem after asking it with messages such as '??', 'anyone there...?', 'someone answer'. : true : true
+9 : Any version below 1.15.2 is not supported here due to the LTS system. : true : true
+10 : Do not advertise in DMs. : true : true
+11 : Do not send Discord server invites outside of #🎭collab-advertise. : true : true
+12 : Any IDE argument or intentional start of an argument will result in a warn for all participating users. : true : true
+13 : No bot commands outside of #🤖bot-commands, with the exception of the command being related to the current topic in some way. : true : true
+14 : Do not impersonate admins or other members, this will result in a kick followed by a warning. : true : true
+15 : Misusing #📕suggestions will result in both a warn and a 2 hour mute. : true : true
+16 : Regarding Rule 15: We consider a conversation ended if there has been no activity in 3 hours, or if they explicitly say 'Thanks for the help!', etc. This only applies for help channels! : true : true
+17 : In contrary to rule 6, telling users to learn Java when it is completely unrelated to the current issue, or just saying it for the sake of being an asshole, will grant you with a warn! : true : true
+18 : MCreator will not be supported in this server. If you continue to ask for help after being told not to use MCreator, you will be kicked. : true : true
