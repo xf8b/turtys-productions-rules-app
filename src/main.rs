@@ -15,7 +15,7 @@ fn main() {
         ),
         create_rule(
             2,
-            "Do not steal other peoples work. If you do plan on utilising others things, please get confirmation from them first that it is okay.",
+            "Do not steal other people's work. If you do plan on utilising others things, please get confirmation from them first that it is okay.",
         ),
         create_rule(
             3,
@@ -23,15 +23,15 @@ fn main() {
         ),
         create_rule(
             4,
-            "Please keep everything PG except for #🎊off-topic, however no porn is allowed.",
+            "Please keep everything PG except for #🎊off-topic. No porn is allowed.",
         ),
         create_rule(
             5,
-            "No heated discussions will be tolerated, if you witness one, please contact an @Administrator.",
+            "No heated discussions will be tolerated. If you witness one, please contact an Administrator.",
         ),
         create_rule(
             6,
-            "Learn java before you ask why your code doesn't work. By not learning java, you make it harder for both yourself and for us. Explaining how to fix something is significantly more difficult if someone hasn't learnt java, so please, just take a week or so out of your time to do that first.",
+            "Learn Java before you ask why your code doesn't work. By not learning Java, you make it harder for both yourself and for us. Explaining how to fix something is significantly more difficult if someone hasn't learned java, so please, just take a week or so out of your time to do that first.",
         ),
         create_rule(
             7,
@@ -39,15 +39,15 @@ fn main() {
         ),
         create_rule(
             8,
-            "Do not ping whole roles or excessively ping users. Just because you might be fine with it, doesn't mean everyone is, so just keep the pings to a minimum please.",
+            "Do not ping whole roles or excessively ping users. Just because you might be fine with it, doesn't mean everyone is, so just keep the pings to a minimum.",
         ),
         create_rule(
             9,
-            "English only please(this is because its very tricky to moderate languages that all our admins can't speak in).",
+            "English only please. This is because it's very tricky to moderate languages that all our admins can't speak in.",
         ),
         create_rule(
             10,
-            "You are only permitted to 1 advertisement and 1 collaboration request per thing, and those should be in #🎭collab-advertise. This rule does not apply for youtubers/streamers.",
+            "You are only permitted 1 advertisement and 1 collaboration request for a thing, and those should be in #🎭collab-advertise. This rule does not apply for YouTubers and streamers.",
         ),
         create_rule(
             11,
@@ -63,11 +63,11 @@ fn main() {
         ),
         create_rule(
             14,
-            "Do not post files in any channel. Always host it online. Direct links to executables are also not allowed.",
+            "Do not post files in any channel. Always host it online. Direct links to executables are not allowed.",
         ),
         create_rule(
             15,
-            "Do not purposely boot in, asking for help in an on-running conversation.",
+            "Do not purposely boot into a running conversation asking for help.",
         ),
         create_rule(
             16,
