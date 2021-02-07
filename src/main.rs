@@ -85,6 +85,8 @@ fn main() {
         .read_line(&mut action)
         .expect("Failed to read line");
 
+    println!();
+
     match action.to_lowercase().trim() {
         "list" => {
             for rule in &rules {
@@ -102,6 +104,8 @@ fn main() {
             io::stdin()
                 .read_line(&mut search_term)
                 .expect("Failed to read line");
+
+            println!();
 
             let result: Vec<&Rule> = rules.iter()
                 .filter(|&rule| rule.definition.contains(search_term.trim()))
