@@ -1,10 +1,9 @@
 use std::io;
 
-use rules::create_non_admin_rule;
-use rules::create_rule;
-use rules::Rule;
-
 use crate::rules::create_guideline;
+use crate::rules::create_non_admin_rule;
+use crate::rules::create_rule;
+use crate::rules::Rule;
 
 mod rules;
 
@@ -75,6 +74,7 @@ fn main() {
             16,
             "No role-playing and no politics.",
         ),
+        // guidelines
         create_guideline(
             1,
             "Keep messages in their designated channels.",
@@ -141,11 +141,11 @@ fn main() {
         ),
         create_guideline(
             17,
-            "In contrary to rule 6, telling users to learn Java when it is completely unrelated to the current issue, or just saying it for the sake of being an asshole, will grant you with a warn!"
+            "In contrary to rule 6, telling users to learn Java when it is completely unrelated to the current issue, or just saying it for the sake of being an asshole, will grant you with a warn!",
         ),
         create_guideline(
             18,
-            "MCreator will not be supported in this server. If you continue to ask for help after being told not to use MCreator, you will be kicked."
+            "MCreator will not be supported in this server. If you continue to ask for help after being told not to use MCreator, you will be kicked.",
         )
     ];
 
