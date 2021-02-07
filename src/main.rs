@@ -162,7 +162,15 @@ fn main() {
     match action.to_lowercase().trim() {
         "list" => {
             for rule in &rules {
-                println!("{} Number: {}", if rule.is_guideline { "Guideline" } else { "Rule" }, rule.number);
+                println!(
+                    "{} Number: {}",
+                    if rule.is_guideline {
+                        "Guideline"
+                    } else {
+                        "Rule"
+                    },
+                    rule.number
+                );
                 println!("Definition: {}", rule.definition);
                 println!("Applies to admins: {}", rule.applies_to_admins);
                 println!();
@@ -179,13 +187,26 @@ fn main() {
 
             println!();
 
-            let result: Vec<&Rule> = rules.iter()
-                .filter(|&rule| rule.definition.to_lowercase().contains(search_term.to_lowercase().trim()))
+            let result: Vec<&Rule> = rules
+                .iter()
+                .filter(|&rule| {
+                    rule.definition
+                        .to_lowercase()
+                        .contains(search_term.to_lowercase().trim())
+                })
                 .collect();
 
             if !result.is_empty() {
                 for rule in &result {
-                    println!("{} Number: {}", if rule.is_guideline { "Guideline" } else { "Rule" }, rule.number);
+                    println!(
+                        "{} Number: {}",
+                        if rule.is_guideline {
+                            "Guideline"
+                        } else {
+                            "Rule"
+                        },
+                        rule.number
+                    );
                     println!("Definition: {}", rule.definition);
                     println!("Applies to admins: {}", rule.applies_to_admins);
                     println!();
@@ -194,6 +215,6 @@ fn main() {
                 panic!("error: could not find rule(s) matching {}", search_term)
             }
         }
-        _ => panic!("error: invalid action")
+        _ => panic!("error: invalid action"),
     }
 }
