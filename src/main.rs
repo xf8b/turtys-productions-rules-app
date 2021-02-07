@@ -106,7 +106,7 @@ fn main() {
             println!();
 
             let result: Vec<&Rule> = rules.iter()
-                .filter(|&rule| rule.definition.contains(search_term.to_lowercase().trim()))
+                .filter(|&rule| rule.definition.to_lowercase().contains(search_term.to_lowercase().trim()))
                 .collect();
 
             if !result.is_empty() {
