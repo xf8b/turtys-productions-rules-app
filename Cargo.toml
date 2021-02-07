@@ -1,0 +1,10 @@
+[package]
+name = "turtywurty-productions-rules"
+version = "0.1.0"
+authors = ["xf8b <unknownperson102424@pm.me>"]
+edition = "2018"
+description = "Utilities to make moderating TurtyWurty Productions easier"
+license = "GPL-3.0-or-later"
+publish = false
+
+[dependencies]
