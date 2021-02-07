@@ -1,4 +1,4 @@
-# TurtyWurty Productions Rules
+# Turty's Productions Rules App
 
 A Rust program to make moderating the TurtyWurty Productions Discord server easier.
 

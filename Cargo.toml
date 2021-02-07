@@ -1,9 +1,9 @@
 [package]
-name = "turtywurty-productions-rules"
+name = "turtys-proudctions-rules-app"
 version = "0.1.0"
 authors = ["xf8b <unknownperson102424@pm.me>"]
 edition = "2018"
-description = "Utilities to make moderating TurtyWurty Productions easier"
+description = "Utilities to make moderating Turty's Productions easier"
 license = "GPL-3.0-or-later"
 publish = false
 
